@@ -82,5 +82,10 @@ img {
 .p2 {
     border-radius: 8px;
     border: solid black 1px;
+    height: 15%;
+    width: 25%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 

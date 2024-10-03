@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+* {
+    font-family: Kavivanar;
+}
+
+.back {
+	background-color: black;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	height: 80vh;
+	width: 30%;
+	margin: auto;
+
+}
+
+.nom {
+	background-color: #d9d9d9;
+	border-radius: 12px;
+	margin-top: 15px;
+	width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: center;
+    justify-content: space-between;
+}
+
+.t1 {
+    padding: 10px;
+    border: dotted black 5px;
+    font-weight: bold;
+    display: flex;
+    flex-grow: 1;
+}
+
+.nom:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.t2 {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 90%;
+    margin: 10px;
+    border: solid #d9d9d9 7px;
+}
+
+.text {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #d9d9d9;
+    width: 90%;
+    height: 35%;
+    border-radius: 12px;
+    background: radial-gradient(50% 138.22% at 50% 50%, #000000 0%, #0084A8 20%, #0015FF 40%, #000000 60%, #0084A8 80%, #0015FF 100%);
+}
+
+.p {
+    border: solid black 10px;
+    background-color: #d9d9d9;
+    height: 85%;
+    width: 90%;
+    border-radius: 12px;
+}
+
+.p2 {
+    border-radius: 8px;
+    border: solid black 1px;
+}
+
